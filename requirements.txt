@@ -1,0 +1,17 @@
+# This records the key packages only.
+# Suggested use: e.g. yes | pip install pandas==2.1.0
+#
+
+
+Python 			3.10.13
+
+
+pandas                  2.2.3
+numpy                   2.2.4
+scipy			1.15.2
+scikit-learn		1.6.1
+
+torch                   2.6.0
+torchvision             0.21.0
+torchviz		0.0.3
+

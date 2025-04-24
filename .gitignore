@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+__pycache__/
+
+p3.10_attention_seq2seq
+
+
+attention_seq2seq_notes.txt
+
+datasets/
+
+ratio5,ss10/
