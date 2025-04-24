@@ -6,5 +6,10 @@ We set up a toy French to English translation task, __implement the attentional 
                   
 We can then feed French into the model and use beam search to get its take on some probable translations:
 
-<img src="write-up_pics/c.png" alt="pic" width="300"/>
+<img src="write-up_pics/e.png" alt="pic" width="300"/>
+
+
+write-up.ipynb provides the best way into the repo.
+
+dataprep.ipynb, model_train.ipynb, model_investigate.ipynb run through the coding, and we have put most of the functions in dataprep_functions.py and model_functions.py. 
 
