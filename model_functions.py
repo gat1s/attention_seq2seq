@@ -7,8 +7,6 @@
 #
 
 
-
-
 ######################################
 
 colab = False
@@ -25,7 +23,8 @@ terminal_output = sys.stdout
 ######################################
 #
 # Modelling choices we make here:
-#      optimizer choice, clip grad norm, patience, the rate of scheduled sampling and the decay schedule.
+#      optimizer choice, clip grad norm (not done), the rate of scheduled sampling and the decay schedule,
+#      learning rate scheduling (not done).
 #
 ######################################
 
@@ -466,15 +465,10 @@ def clean_list(l, index):
 
 
 ####################################################################################################
-##  These functions implement the training loop in PyTorch. As well as plotting curves and saving models.
+#
+#  These functions implement the training loop in PyTorch. As well as plotting curves and saving models.
+#
 ####################################################################################################
-
-
-#def unison_shuffler(a, b, rng):
-#    # only np arrays accepted?
- #   assert len(a) == len(b)
-  #  p = rng.permutation(len(a))
-   # return a[p], b[p]
 
 def scientific(x, pos):
     # x:  tick value - ie. what you currently see in yticks
@@ -766,10 +760,6 @@ def run_model(train_dataset, val_dataset, model_class, lossmaker, device,
 
     return (TLOSS, VLOSS)
 
-
-####################################################################################################
-##  These functions 
-####################################################################################################
 
 
 
