@@ -16,7 +16,7 @@ dataprep.ipynb,
 model_train.ipynb, 
 model_investigate.ipynb - run through the high-level coding and steps.
 
-dataprep_functions.py 
+dataprep_functions.py, 
 model_functions.py     - key Python functions.
 
 
