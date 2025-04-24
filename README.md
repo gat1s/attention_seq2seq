@@ -11,5 +11,5 @@ We can then feed French into the model and use beam search to get its take on so
 
 write-up.ipynb provides the best way into the repo.
 
-dataprep.ipynb, model_train.ipynb, model_investigate.ipynb run through the coding, and we have put most of the functions in dataprep_functions.py and model_functions.py. 
+dataprep.ipynb, model_train.ipynb, model_investigate.ipynb run through the coding at a high level, and we have put most of the functions in dataprep_functions.py and model_functions.py. 
 
