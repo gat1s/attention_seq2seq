@@ -1,6 +1,6 @@
 # This file contains all the functions needed for model stipulation, model training and later model investigation.
 
-# TODO: Collect and plot gradients? Clip gradients?
+# Possible extensions: Collect and plot gradients? Clip gradients?
 #        Experiment with other modelling choices, optimizer choices.
 #      Play around with scheduled sampling.
 #      Add other forms of regularisation beyond dropout, perhaps weight constraints?

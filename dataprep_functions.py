@@ -1,6 +1,7 @@
 # This file contains functions to do with cleaning, filtering and setting up the dataset.
 
-# TODO:
+# Possible extensions: Nothing much. We could think about other ways to handle punctuation. 
+#
 
 
 ######################################
